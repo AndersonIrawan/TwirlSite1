@@ -101,11 +101,14 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	@font-face {	
+		src: url("D:\Andy's Stuff\Digital Media 2021 Intake\Graphic & Web Design\TwirlSite1\fonts\Quicksand-Medium.ttf");
+		font-family: MyWebFont;
+	}
+
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "quicksandlight", Helvetica, sans-serif;
-		src: 	url('quicksand-variablefont_wght-webfont.woff2') format('woff2'),
-         		url('quicksand-variablefont_wght-webfont.woff') format('woff');
+		font-family: MyWebFont;
 		font-size: 15pt;
 		font-weight: normal;
     	font-style: normal;
