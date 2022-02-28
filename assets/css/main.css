@@ -102,7 +102,7 @@ input, select, textarea {
 		}
 
 	@font-face {	
-		src: url("/fonts/Quicksand-Medium.ttf");
+		src: url("../webfonts/Quicksand-Medium.ttf");
 		font-family: MyWebFont;
 	}
 
@@ -2493,7 +2493,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #ffb703;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2503,7 +2503,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #fb8500!important;
 			}
 
 			input[type="submit"].primary:active,
