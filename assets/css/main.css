@@ -102,13 +102,13 @@ input, select, textarea {
 		}
 
 	@font-face {	
-		src: url("D:\Andy's Stuff\Digital Media 2021 Intake\Graphic & Web Design\TwirlSite1\fonts\Quicksand-Medium.ttf");
+		src: url("/fonts/Quicksand-Medium.ttf");
 		font-family: MyWebFont;
 	}
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: MyWebFont;
+		font-family: MyWebFont, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 		font-size: 15pt;
 		font-weight: normal;
     	font-style: normal;
@@ -2709,15 +2709,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgb(255, 255, 255);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgb(210, 220, 225);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgb(255, 255, 255);
 		}
 
 		.spotlight:nth-child(4) {
@@ -4009,4 +4009,8 @@ input, select, textarea {
   		margin-left: auto;
  		margin-right: auto;
  		width: 30%;
+	}
+
+	.middle-section {
+		color: #1d242a;
 	}
