@@ -2713,7 +2713,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgb(210, 220, 225);
+			background-color: rgb(225, 225, 225);
 		}
 
 		.spotlight:nth-child(3) {
@@ -4014,3 +4014,8 @@ input, select, textarea {
 	.middle-section {
 		color: #1d242a;
 	}
+
+	.dropdown-scrollbar {
+    height: 50px;
+    overflow: scroll;
+}
