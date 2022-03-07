@@ -102,7 +102,7 @@ input, select, textarea {
 		}
 
 	@font-face {	
-		src: url("../webfonts/Quicksand-Semibold.ttf");
+		src: url("../webfonts/Quicksand-SemiBold.ttf");
 		font-family: MyWebFont;
 	}
 
@@ -127,7 +127,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 20pt;
 			}
 
 		}
