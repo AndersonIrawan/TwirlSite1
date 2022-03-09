@@ -2987,7 +2987,7 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #fb8500;
-			color: #fff;
+			color: rgba(255, 255, 255, 0.50);
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -4022,6 +4022,7 @@ input, select, textarea {
 
 	.profile-picture {
 		border-radius: 50%;
+		max-width: 30%;
 	}
 
 	.whitelogo2 {
