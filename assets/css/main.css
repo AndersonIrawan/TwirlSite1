@@ -2709,15 +2709,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgb(255, 255, 255);
+			background-color: rgb(31, 158, 188);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgb(225, 225, 225);
+			background-color: rgb(143, 202, 230);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgb(255, 255, 255);
+			background-color: rgb(31, 158, 188);
 		}
 
 		.spotlight:nth-child(4) {
@@ -4012,17 +4012,17 @@ input, select, textarea {
 	}
 
 	.middle-section {
-		color: #1d242a;
+		color: #fff;
 	}
 
 	.dropdown-scrollbar {
     height: 50px;
     overflow: scroll;
 }
-
-	.profile-picture {
-		border-radius: 50%;
-		max-width: 30%;
+	.rounded {
+		border-radius: 10%;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.whitelogo2 {
